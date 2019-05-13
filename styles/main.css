@@ -9,6 +9,205 @@ h1 {
   font-style: normal; }
 
 body {
-  background: #eee; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #3d4e61; }
+
+a {
+  color: #3d4e61;
+  text-decoration: none; }
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 20px; }
+  .navbar .group-menu {
+    width: 373px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+.big-photo {
+  width: 100%;
+  background: url(../images/Image.png) no-repeat center center;
+  background-size: cover;
+  min-height: 464px;
+  margin-bottom: 40px; }
+
+.form-container {
+  width: 330px;
+  height: 319px; }
+  .form-container .booking-form {
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #e1e7ed;
+    border-radius: 3px;
+    padding: 30px; }
+    .form-container .booking-form .form-item {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 16px; }
+    .form-container .booking-form .form-item input {
+      width: 251px;
+      height: 100%;
+      border: 1px solid #e1e7ed;
+      border-radius: 3px;
+      padding: 0 0 0 17px; }
+    .form-container .booking-form .form-item .button {
+      width: 100%;
+      height: 100%;
+      color: white;
+      background: #fd5c63;
+      border-radius: 4px;
+      border: 1px solid #fd5c63; }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .main .container {
+    width: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .main .container .apartment {
+      margin-bottom: 44.05px;
+      width: 450px; }
+      .main .container .apartment__title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #3d4e61;
+        margin-bottom: 10.16px; }
+      .main .container .apartment .entire-apartament__link {
+        display: block;
+        font-size: 16px;
+        line-height: 19px;
+        color: #687c94;
+        margin-bottom: 15px; }
+      .main .container .apartment .apartment-specification {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 28.05px; }
+        .main .container .apartment .apartment-specification__link {
+          font-size: 16px;
+          line-height: 19px;
+          color: #3d4e61;
+          margin-right: 32px; }
+          .main .container .apartment .apartment-specification__link:hover {
+            color: #687c94; }
+      .main .container .apartment__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #3d4e61;
+        margin-bottom: 24px; }
+      .main .container .apartment__contact {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61;
+        font-weight: bold; }
+        .main .container .apartment__contact:hover {
+          -webkit-box-shadow: 0 1px 0 #3d4e61;
+                  box-shadow: 0 1px 0 #3d4e61; }
+    .main .container .amenities {
+      margin-bottom: 66.05px; }
+      .main .container .amenities__title {
+        font-size: 20px;
+        line-height: 23px;
+        color: #3d4e61;
+        margin-bottom: 25px;
+        font-weight: bold; }
+      .main .container .amenities .amenities-item {
+        width: 400px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        .main .container .amenities .amenities-item__link {
+          font-size: 16px;
+          line-height: 19px;
+          color: #3d4e61;
+          margin-bottom: 17px;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 175px;
+                  flex: 0 0 175px; }
+          .main .container .amenities .amenities-item__link:hover {
+            color: #687c94; }
+      .main .container .amenities .all-amenities__link {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61;
+        font-weight: bold; }
+        .main .container .amenities .all-amenities__link:hover {
+          -webkit-box-shadow: 0 1px 0 #3d4e61;
+                  box-shadow: 0 1px 0 #3d4e61; }
+    .main .container .reviews {
+      margin-bottom: 50px;
+      width: 500px; }
+      .main .container .reviews__title {
+        font-size: 28px;
+        line-height: 33px;
+        color: #3d4e61;
+        font-weight: bold;
+        margin-bottom: 38px; }
+      .main .container .reviews__persons {
+        margin-bottom: 20px; }
+        .main .container .reviews__persons .reviews-person {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          margin-bottom: 23px; }
+          .main .container .reviews__persons .reviews-person__photo {
+            margin-right: 21px;
+            height: 50px; }
+          .main .container .reviews__persons .reviews-person__info {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            height: 50px; }
+            .main .container .reviews__persons .reviews-person__info__name {
+              font-size: 20px;
+              color: #3d4e61; }
+            .main .container .reviews__persons .reviews-person__info__data {
+              font-size: 14px;
+              color: #3d4e61; }
+      .main .container .reviews__text {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61; }
 
 /*# sourceMappingURL=main.css.map */
