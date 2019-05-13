@@ -30,6 +30,10 @@ a {
 
 .big-photo {
   width: 100%;
+  background: url(../images/Image.png) no-repeat center center;
+  background-size: cover;
+  min-height: 464px;
+  margin-bottom: 40px;
 }
 
 .form-container {
@@ -66,5 +70,167 @@ a {
       border: 1px solid #fd5c63;
     }
 
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    // .about-apartment {
+    //   //
+    // }
+
+    .apartment {
+      margin-bottom: 44.05px;
+      width: 450px;
+
+      &__title {
+        font-size: 36px;
+        line-height: 42px;
+        color: #3d4e61;
+        margin-bottom: 10.16px;
+      }
+
+      .entire-apartament__link {
+        display: block;
+        font-size: 16px;
+        line-height: 19px;
+        color: #687c94;
+        margin-bottom: 15px;
+      }
+
+      .apartment-specification {
+        display: flex;
+        margin-bottom: 28.05px;
+
+        &__link {
+          font-size: 16px;
+          line-height: 19px;
+          color: #3d4e61;
+          margin-right: 32px;
+
+          &:hover {
+            color: #687c94;
+          }
+        }
+      }
+
+      &__text {
+        font-size: 16px;
+        line-height: 24px;
+        color: #3d4e61;
+        margin-bottom: 24px;
+      }
+
+      &__contact {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61;
+        font-weight: bold;
+
+        &:hover {
+          box-shadow: 0 1px 0 #3d4e61;
+        }
+      }
+    }
+
+    .amenities {
+      margin-bottom: 66.05px;
+
+      &__title {
+        font-size: 20px;
+        line-height: 23px;
+        color: #3d4e61;
+        margin-bottom: 25px;
+        font-weight: bold;
+      }
+
+      .amenities-item {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+
+        &__link {
+          font-size: 16px;
+          line-height: 19px;
+          color: #3d4e61;
+          margin-bottom: 17px;
+          flex: 0 0 175px;
+
+          &:hover {
+            color: #687c94;
+          }
+        }
+      }
+
+      .all-amenities__link {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61;
+        font-weight: bold;
+
+        &:hover {
+          box-shadow: 0 1px 0 #3d4e61;
+        }
+      }
+    }
+
+    .reviews {
+      margin-bottom: 50px;
+      width: 500px;
+
+      &__title {
+        font-size: 28px;
+        line-height: 33px;
+        color: #3d4e61;
+        font-weight: bold;
+        margin-bottom: 38px;
+      }
+
+      &__persons {
+        margin-bottom: 20px;
+
+        .reviews-person {
+          display: flex;
+          align-items: center;
+          margin-bottom: 23px;
+
+          &__photo {
+            margin-right: 21px;
+            height: 50px;
+          }
+
+          &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 50px;
+
+            &__name {
+              font-size: 20px;
+              color: #3d4e61;
+            }
+
+            &__data {
+              font-size: 14px;
+              color: #3d4e61;
+            }
+          }
+        }
+      }
+
+      &__text {
+        font-size: 16px;
+        line-height: 19px;
+        color: #3d4e61;
+      }
+    }
   }
 }
