@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./styles/main.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
   <header id="navbar" class="navbar">
     <div class="logo">
       <a href="#">
-        <img src="./images/Rectangle.png" alt="logo">
+        <img src="./images/AirBnB-logo.svg" alt="logo">
       </a>
     </div>
     <div class="group-menu">
@@ -22,26 +24,88 @@
     </div>
   </header>
   <div class="big-photo">
-    <img src="./images/Image.png" alt="">
   </div>
-  <main>
-    <div class="form-container">
-      <form action="#" class="booking-form">
-        <div class="form-item">
-          <h4 class="cost">25$ per night</h4>
-        </div>
-        <div class="form-item">
-          <input type="text" class="date" placeholder="Date">
-        </div>
-        <div class="form-item">
-          <input type="text" class="guests" placeholder="Guests">
-        </div>
-        <div class="form-item ">
-          <button type="submit" class="button">Book</button>
-        </div>
-      </form>
+  <main class="main main__wrapper">
+    <div class="container details">
+      <div class="about-apartment">
+        <section class="section apartment">
+          <div class="apartment__title">Quiet apartment</div>
+          <a href="javascript:void(0)" class="entire-apartament__link">Entire apartment</a>
+          <div class="apartment-specification">
+            <a href="javascript:void(0)" class="apartment-specification__link"><span
+                class="apartment-specification-count__link">4</span> guests</a>
+            <a href="javascript:void(0)" class="apartment-specification__link"><span
+                class="apartment-specification-count__link">1</span> bed</a>
+            <a href="javascript:void(0)" class="apartment-specification__link"><span
+                class="apartment-specification-count__link">1</span> bath</a>
+          </div>
+          <div class="apartment__text">
+            City Apartment is newly renovated in the heart of Budapest, right in the city center. Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            enim
+            ad
+            minim veniam.
+          </div>
+          <a href="javascript:void(0)" class="apartment__contact">Contact host</a>
+        </section>
+        <section class="section amenities">
+          <div class="amenities__title">Amenities</div>
+          <div class="amenities-item">
+            <a href="javascript:void(0)" class="amenities-item__link">Elevator</a>
+            <a href="javascript:void(0)" class="amenities-item__link">Hair dryer</a>
+            <a href="javascript:void(0)" class="amenities-item__link">Washer</a>
+            <a href="javascript:void(0)" class="amenities-item__link">Kitchen</a>
+          </div>
+          <a href="javascript:void(0)" class="all-amenities__link">Show All Amenities</a>
+        </section>
+        <section class="section reviews">
+          <div class="reviews__title">Reviews</div>
+          <div class="reviews__persons">
+            <div class="reviews-person">
+              <div class="reviews-person__photo"><img src="./images/person_photo.svg" alt="person-photo"
+                  class="reviews-person__photo__img"></div>
+              <div class="reviews-person__info">
+                <div class="reviews-person__info__name">John</div>
+                <div class="reviews-person__info__data">September 2016</div>
+              </div>
+            </div>
+            <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+          </div>
+          <div class="reviews__persons">
+            <div class="reviews-person">
+              <div class="reviews-person__photo"><img src="./images/person_photo.svg" alt="person-photo"
+                  class="reviews-person__photo__img"></div>
+              <div class="reviews-person__info">
+                <div class="reviews-person__info__name">John</div>
+                <div class="reviews-person__info__data">September 2016</div>
+              </div>
+            </div>
+            <div class="reviews__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+              minim
+              veniam.</div>
+          </div>
+        </section>
+      </div>
+      <div class="form-container">
+        <form action="#" class="booking-form">
+          <div class="form-item">
+            <h4 class="cost">25$ per night</h4>
+          </div>
+          <div class="form-item">
+            <input type="text" class="date" placeholder="Date">
+          </div>
+          <div class="form-item">
+            <input type="text" class="guests" placeholder="Guests">
+          </div>
+          <div class="form-item ">
+            <button type="submit" class="button">Book</button>
+          </div>
+        </form>
+      </div>
     </div>
   </main>
-    <script type="text/javascript" src="scripts/main.js"></script>
-  </body>
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
 </html>
