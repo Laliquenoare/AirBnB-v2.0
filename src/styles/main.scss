@@ -20,8 +20,13 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 15px 25px;
+  &-nav-account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .logo {
-    flex: 3 1 30px;
+    flex: 0 1 30px;
   }
   &-nav {
     flex: 0 1 345px;

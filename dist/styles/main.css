@@ -16,7 +16,7 @@ h1 {
 
 @font-face {
   font-family: "Avenir";
-  src: url("../fonts/Avenir-Medium.ttf") format("truetype");
+  src: url("../fonts/Avenir-Book.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -43,10 +43,20 @@ a {
       -ms-flex-align: center;
           align-items: center;
   padding: 15px 25px; }
+  .header-nav-account {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .header .logo {
-    -webkit-box-flex: 3;
-        -ms-flex: 3 1 30px;
-            flex: 3 1 30px; }
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 30px;
+            flex: 0 1 30px; }
   .header-nav {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 345px;
